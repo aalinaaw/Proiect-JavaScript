@@ -1,0 +1,71 @@
+p {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	color: yellow;
+	font-size: 20px;
+}
+
+a {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	font-size: 30px;
+}
+
+.poz {
+	position: relative;
+	left: 25%;
+	height: 40vh;
+	width: 50vw;
+}
+
+.fa {
+	position: relative;
+	left: 47%;
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	display: flex;
+
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background: #3B5998;
+	color: white;
+
+}
+
+@media (max-width: 400px) {
+	p {
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		color: yellow;
+		font-size: 15px;
+	}
+
+	a {
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		font-size: 20px;
+	}
+
+	.poz {
+		position: relative;
+		left: 7%;
+		height: 30vh;
+		width: 80vw;
+	}
+}

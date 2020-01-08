@@ -1,0 +1,19 @@
+.poz {
+	position: relative;
+	left: 25%;
+	height: 50vh;
+	width: 50vw;
+}
+
+a {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	font-size: 25px;
+}
+
+p {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
